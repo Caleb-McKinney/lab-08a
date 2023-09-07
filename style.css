@@ -1,0 +1,51 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  /* Header styles */
+}
+
+nav {
+  /* Navigation styles */
+}
+
+main {
+  /* Main content styles */
+}
+
+#section1 {
+  /* Section 1 styles */
+}
+
+#section2 {
+  /* Section 2 styles */
+}
+
+#section3 {
+  /* Section 3 styles */
+}
+
+aside {
+  /* Aside content styles */
+}
+
+footer {
+  /* Footer styles */
+}
+
+/* Add styles for images, text, borders, colors, etc. */
+
+/* Example placeholder image style */
+img {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  height: auto;
+}
+
+/* Example text style for lorem ipsum */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
