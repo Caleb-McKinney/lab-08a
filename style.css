@@ -4,48 +4,56 @@ body {
 }
 
 header {
-  /* Header styles */
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: flex-end | space-evenly; */
 }
-
-nav {
-  /* Navigation styles */
+#Nav1,
+#Nav2,
+#Nav3,
+#Nav4 {
+  padding-top: 35px;
 }
 
 main {
-  /* Main content styles */
 }
 
 #section1 {
-  /* Section 1 styles */
 }
 
 #section2 {
-  /* Section 2 styles */
+  display: flex;
+  justify-content: space-between;
 }
 
 #section3 {
-  /* Section 3 styles */
+  display: flex;
+  justify-content: space-evenly;
+
+  h1 {
+    font-size: large;
+  }
+
+  p {
+    margin-top: 100px;
+    margin-right: 200px;
+    max-height: 100px;
+    max-width: 350px;
+    overflow: auto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
 }
 
-aside {
-  /* Aside content styles */
+#section4 {
 }
 
 footer {
-  /* Footer styles */
-}
-
-/* Add styles for images, text, borders, colors, etc. */
-
-/* Example placeholder image style */
-img {
+  background-color: #ddd;
+  padding-top: 40px;
+  margin: 0%;
+  height: 50px;
   width: 100%;
-  max-width: 400px; /* Adjust as needed */
-  height: auto;
-}
-
-/* Example text style for lorem ipsum */
-p {
-  font-size: 16px;
-  line-height: 1.5;
+  text-align: center;
 }
